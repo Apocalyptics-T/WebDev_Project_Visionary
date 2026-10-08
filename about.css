@@ -1,0 +1,19 @@
+nav{
+    border-style: hidden;
+    border-bottom-style: solid;
+    padding-bottom: 10px;
+}
+
+h1{
+    border-style: hidden;
+    border-bottom-style: dashed;
+    padding-bottom: 25px
+}
+
+a:hover {
+    color: #6e128c;
+}
+
+a:visited{
+    color: #6e128c;
+}
