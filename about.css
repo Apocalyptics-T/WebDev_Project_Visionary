@@ -7,7 +7,9 @@ nav{
 h1{
     border-style: hidden;
     border-bottom-style: dashed;
-    padding-bottom: 25px
+    padding-bottom: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px ;
 }
 
 a:hover {

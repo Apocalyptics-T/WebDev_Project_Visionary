@@ -4,8 +4,14 @@ nav{
     padding-bottom: 10px;
 }
 
-img {
-    background-image: url("Mainpage.jpg")
+h1{
+    color:white;
+}
+
+main {
+    background-image: url("Mainpage.jpg");
+    height: 1000px;
+    width: 1500px;
 }
 
 a:visited{
@@ -17,7 +23,8 @@ a:hover {
 }
 
 footer{
-    border-style: hidden;
-    border-top-style: solid;
+    border-style: solid;
     text-align: center;
+    background-color: rgb(230, 227, 227);
+    background-image: linear-gradient(to bottom right, rgb(181, 184, 188), rgb(129, 170, 246));
 }
