@@ -1,17 +1,23 @@
 nav{
     border-style: hidden;
     border-bottom-style: solid;
-    padding-bottom: 10px;
+    padding-bottom: 12px;
 }
 
 h1{
-    color:white;
+    color:black;
+    z-index: 1;
 }
 
-main {
-    background-image: url("Mainpage.jpg");
-    height: 1000px;
-    width: 1500px;
+
+.background-image{
+    background-image: url('Mainpagev2.jpg');
+    background-size: cover;
+    height: 30rem;
+    width: auto;
+    background-repeat: 0;
+    color:white;
+    text-align: center;
 }
 
 a:visited{
@@ -27,4 +33,9 @@ footer{
     text-align: center;
     background-color: rgb(230, 227, 227);
     background-image: linear-gradient(to bottom right, rgb(181, 184, 188), rgb(129, 170, 246));
+}
+
+p.footertext{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style:italic
 }
